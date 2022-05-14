@@ -6,6 +6,9 @@
     height: 725px;
     background-color: #57cc99;
 }
+#hero-img {
+    width: 1600px;
+}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
