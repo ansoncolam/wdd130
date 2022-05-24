@@ -27,5 +27,7 @@ p {
     font-size: 100px;
     text-align: center;
     color: rgba(63, 4, 23, 0.801);
+    letter-spacing: .1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
