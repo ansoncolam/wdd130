@@ -70,29 +70,29 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 50px;
+  grid-column-gap: 120px;
 }
 .red3 {
   width: 100%; 
-  height: 100px; 
+  height: 150px; 
   background-color: red; 
   grid-column: 1/3;
 } 
 .green3 {
   width: 100%; 
-  height: 100px; 
+  height: 250px; 
   background-color: green;
   grid-column: 1/2;
 } 
 .yellow3 {
   width: 100%; 
-  height: 100px; 
+  height: 250px; 
   background-color: gold; 
   grid-column: 2/3;
 } 
 .blue3 {
   width: 100%;
-  height: 100px; 
+  height: 150px; 
   background-color: blue; 
   grid-column: 1/3;
 } 
@@ -128,7 +128,7 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  width: 900px;
+  width: 100%;
 }
 .red5 { 
   width: 100%; 
@@ -143,7 +143,7 @@
 } 
 .yellow5 {
   width: 100%; 
-  height: 350px;
+  height: 100%;
   background-color: gold;
   font-size: 20px;
 } 
