@@ -30,7 +30,7 @@ h2 {
     text-align: center;
 }
 .home-title {
-    font-family: "Lobster";
+    font-family: "Lobster", Arial, sans-serif;
     font-size: 2em;
     color: #22577A; 
     margin-top: 10px;
