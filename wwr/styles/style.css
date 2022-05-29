@@ -212,6 +212,9 @@ footer .social img {
     #hero-msg {
         margin-top: 0;
     }
+    #hero-msg h1 {
+        color: #22577A;
+    }
     #hero-msg h4 {
         display: none;
     }
