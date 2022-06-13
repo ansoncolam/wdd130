@@ -217,19 +217,22 @@ footer .social img {
 }
 .rivers-pic {
     margin: 10px;
-    width: 95%;
 }
 .rivers-dis {
     margin: 10px;
     padding: 30px;
-    width: 85%;
     background-color: #80ED99;
     text-align: left;
     line-height: 1.5;
     border-style: double;
     border-color: #22577A;
 }
-
+.rivers-sep {
+    margin-top: 20px;
+    text-align: center;
+    color: #22577A;
+    grid-column: 1/11;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid, .rivers-grid {
