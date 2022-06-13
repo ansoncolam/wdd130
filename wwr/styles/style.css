@@ -201,16 +201,16 @@ footer .social img {
     max-width: 100%;
 }
 
-.title-box {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    grid-column: 1/11;
-}
-
 .rivers-header {
     display: grid;
     grid-template-columns: 150px auto;
     background: rgba(56, 163, 165);
+}
+
+.title-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-column: 1/11;
 }
 
 .rivers-title {
