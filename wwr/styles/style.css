@@ -69,7 +69,7 @@ nav a:hover {
     color: white; 
     margin-top: 20px;
 }
-#hero-msg h1, #hero-msg h4 {
+h1, h4 {
     text-align: center;
     color: white;
 }
@@ -96,6 +96,8 @@ nav a:hover {
 main {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    justify-items: center;
 }
 main section {
     text-align: center;
@@ -193,9 +195,44 @@ footer .social img {
 }
 
 
+/* rivers page*/
+
+.rivers-header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background: rgba(56, 163, 165);
+}
+
+.rivers-title {
+    font-family: "Lobster", Arial, sans-serif;
+    font-size: 2em;
+    color: #22577A; 
+    margin-top: 40px;
+}
+.rivers-left {
+    grid-column: 1/6;
+}
+.rivers-right {
+    grid-column: 6/11;
+}
+.rivers-pic {
+    margin: 10px;
+    width: 95%;
+}
+.rivers-dis {
+    margin: 10px;
+    padding: 30px;
+    width: 85%;
+    background-color: #80ED99;
+    text-align: left;
+    line-height: 1.5;
+    border-style: double;
+    border-color: #22577A;
+}
+
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
@@ -212,13 +249,10 @@ footer .social img {
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h1 {
-        color: #22577A;
-    }
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .rivers-title {
         font-size: 25px;
         color: #6f7364;
     }
