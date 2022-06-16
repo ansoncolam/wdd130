@@ -380,5 +380,13 @@ button {
     footer {
         margin-top: 25px;
     }
+
+    label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 110px;
+        text-align: left;
+    }
+
 }
       
